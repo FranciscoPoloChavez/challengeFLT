@@ -14,7 +14,7 @@ class Home extends StatefulWidget{
 }
 
 class HomeState extends State<Home>{
-  int _selectDrawerItem = 0;
+  int _selectDrawerItem = 3;
   _getDrawerItemWidget(int pos){
     switch(pos){
       case 0: return AddData();
